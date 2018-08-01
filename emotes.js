@@ -34,6 +34,12 @@ function replace_text_with_emotes(my_string)
 	my_string = my_string.replace(/grrrGold/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/253792/2.0">');
 	my_string = my_string.replace(/grrrDiamondCool/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/427054/2.0">');
 
+
+	// This is only for test, these messages appear when you send test donations using muxy :)
+	my_string = my_string.replace(/This is a sub message/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/25/3.0">');
+	my_string = my_string.replace(/Subs over dubs/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/74510/3.0">');
+	// No more test
+
 	return my_string;
 }
 
