@@ -36,8 +36,15 @@ function replace_text_with_emotes(my_string)
 
 
 	// This is only for test, these messages appear when you send test donations using muxy :)
+	// subs
 	my_string = my_string.replace(/This is a sub message/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/25/3.0">');
 	my_string = my_string.replace(/Subs over dubs/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/74510/3.0">');
+	// donos
+	my_string = my_string.replace(/This is just a troll tip/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/74510/3.0">');
+	my_string = my_string.replace(/Check out this awesome streaming software I just found!/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/74510/3.0">');
+	my_string = my_string.replace(/Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows./g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/74510/3.0">');
+	my_string = my_string.replace(/Your tip alert looks so cool. Tipping just to look at it again. Keep up the great work!/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/74510/3.0">');
+	my_string = my_string.replace(/Your tip alert sound is awesome. Tipping just to hear it again!/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/74510/3.0">');
 	// No more test
 
 	return my_string;
