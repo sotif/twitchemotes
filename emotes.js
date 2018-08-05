@@ -34,6 +34,10 @@ function replace_text_with_emotes(my_string)
 	my_string = my_string.replace(/grrrGold/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/253792/2.0">');
 	my_string = my_string.replace(/grrrDiamondCool/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/427054/2.0">');
 
+	//Bad words
+	my_string = my_string.replace(/dillion harper/gi, '');
+	
+
 
 	// This is only for test, these messages appear when you send test donations using muxy :)
 	// subs
