@@ -2,6 +2,7 @@ function replace_text_with_emotes(my_string)
 {
 	// Global emotes
 	my_string = my_string.replace(/Kappa/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/25/2.0">');
+	my_string = my_string.replace(/PogChamp/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/88/2.0">');
 
 
 	// BTTV emotes
