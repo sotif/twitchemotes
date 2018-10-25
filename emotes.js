@@ -13,6 +13,7 @@ function replace_text_with_emotes(my_string)
 	my_string = my_string.replace(/grrrAww/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/725679/2.0">');
 	my_string = my_string.replace(/grrrBrolof/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/72575/2.0">');
 	my_string = my_string.replace(/grrrBlind/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1521164/2.0">');
+	my_string = my_string.replace(/grrrBoss/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1528435/2.0">');
 	my_string = my_string.replace(/grrrCool/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/92815/2.0">');
 	my_string = my_string.replace(/grrrCozy/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/639829/2.0">');
 	my_string = my_string.replace(/grrrDerp/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/639830/2.0">');
@@ -24,15 +25,18 @@ function replace_text_with_emotes(my_string)
 	my_string = my_string.replace(/grrrHalo/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1242872/2.0">');
 	my_string = my_string.replace(/grrrHi/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/72576/2.0">');
 	my_string = my_string.replace(/grrrHug/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/725716/2.0">');
+	my_string = my_string.replace(/grrrHypers/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1528436/2.0">');
 	my_string = my_string.replace(/grrrLUL/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1119606/2.0">');
 	my_string = my_string.replace(/grrrLove/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/72577/2.0">');
 	my_string = my_string.replace(/grrrNo/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1119614/2.0">');
+	my_string = my_string.replace(/grrrNom/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1528438/2.0">');
 	my_string = my_string.replace(/grrrPog/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1297909/2.0">');
 	my_string = my_string.replace(/grrrP/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1521179/2.0">');
 	my_string = my_string.replace(/grrrSad/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/72790/2.0">');
 	my_string = my_string.replace(/grrrShrug/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/725686/2.0">');
-	my_string = my_string.replace(/grrrS/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1521184/2.0">');
+	my_string = my_string.replace(/grrrSigh/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1528441/2.0">');
 	my_string = my_string.replace(/grrrSip/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/639834/2.0">');
+	my_string = my_string.replace(/grrrS/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1521184/2.0">');
 	my_string = my_string.replace(/grrrSmirk/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1119652/2.0">');
 	my_string = my_string.replace(/grrrThink/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1297913/2.0">');
 	my_string = my_string.replace(/grrrTriss/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1119654/2.0">');
