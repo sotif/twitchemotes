@@ -28,8 +28,8 @@ function replace_text_with_emotes(my_string)
 	my_string = my_string.replace(/grrrHypers/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1528436/2.0">');
 	my_string = my_string.replace(/grrrLUL/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1119606/2.0">');
 	my_string = my_string.replace(/grrrLove/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/72577/2.0">');
-	my_string = my_string.replace(/grrrNo/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1119614/2.0">');
 	my_string = my_string.replace(/grrrNom/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1528438/2.0">');
+	my_string = my_string.replace(/grrrNo/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1119614/2.0">');
 	my_string = my_string.replace(/grrrPog/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1297909/2.0">');
 	my_string = my_string.replace(/grrrP/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1521179/2.0">');
 	my_string = my_string.replace(/grrrSad/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/72790/2.0">');
