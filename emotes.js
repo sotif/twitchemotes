@@ -36,6 +36,7 @@ function replace_text_with_emotes(my_string)
 	my_string = my_string.replace(/grrrShrug/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/725686/2.0">');
 	my_string = my_string.replace(/grrrSigh/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1528441/2.0">');
 	my_string = my_string.replace(/grrrSip/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/639834/2.0">');
+	my_string = my_string.replace(/cloakSip/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/639834/2.0">');
 	my_string = my_string.replace(/grrrS/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1521184/2.0">');
 	my_string = my_string.replace(/grrrSmirk/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1119652/2.0">');
 	my_string = my_string.replace(/grrrThink/g, '<img src="https://static-cdn.jtvnw.net/emoticons/v1/1297913/2.0">');
